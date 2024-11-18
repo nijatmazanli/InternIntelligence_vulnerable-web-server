@@ -1,0 +1,84 @@
+*{text-align:center;}
+body{
+color:black;
+font-size:25px;
+margin:0;
+text-align:center;
+background-color:#F5F1ED;
+}
+
+img {
+width:100px;
+height:70px;
+}
+#about-us {
+            text-align: center;
+        }
+
+        #about-us h2 {
+            margin-bottom: 20px;
+        }
+
+        #about-us p {
+            margin-bottom: 10px;
+        }
+
+ nav ul li a {
+            text-decoration: none;
+            color: #252323; /* Light gray color */
+        opacity:0.6;
+        }
+        nav ul li a:hover{
+opacity:1;
+        }
+        nav ul {
+        background-color:#DAD2BC;
+        
+            list-style: none;
+            margin: 0px 0;
+            padding: 10px;
+            
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px 15px;
+        }
+ nav ul li.login-button {
+            float: right; /* Position the login button to the right */
+        }
+        
+        footer{
+        background-color:#252323;
+        padding:10px;
+margin:0;
+        }
+        .contact-section{
+        margin:0;
+        padding:5px;
+            text-align: center;
+
+        color:black;
+        background-color:#B0B5BF;
+        }
+footer{
+text-align:center;
+color:#DAD2BC;
+}
+#product-container {
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    flex: 1 0 300px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
