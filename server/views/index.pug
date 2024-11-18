@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Welcome
+    body
+        h1 Welcome, #{name}!
+        form(action="/node" method="get")
+            label(for="name") Enter your name:
+            input(type="text" id="name" name="name")
+            button(type="submit") Submit
+
